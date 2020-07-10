@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nancy Tacuri</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" async>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    header {
+        background-color: rgb(236, 220, 220);
+        overflow: hidden;
+    }
+    
+    h1 {
+        padding: 10px;
+        display: inline-block;
+        font-size: 22px;
+        color: rgb(85, 82, 82);
+    }
+    
+    h2 {
+        font-family: URW Chancery L, cursive;
+        font-size: 45px;
+        line-height: 1.1;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Century Gothic;
+    }
+    
+    .main ul {
+        padding: 8px;
+        float: right;
+        list-style-type: none;
+    }
+    
+    .main ul li {
+        padding: 5px;
+        display: inline-block;
+    }
+    
+    .main ul li a {
+        text-decoration: none;
+        color: rgb(65, 32, 32);
+        padding-top: 10px;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+    }
+    
+    .main ul li a:hover {
+        background-color: rgb(140, 175, 196);
+        color: rgb(224, 163, 84);
+    }
+    
+    .main ul li.active a {
+        display: inline-block;
+        background-color: rgb(235, 221, 221);
+        color: rgb(218, 173, 115);
+    }
+    
+    .main {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    .picture {
+        float: left;
+        padding: 50px;
+    }
+    
+    .pic {
+        border-radius: 20px;
+        width: 300px;
+        display: block;
+    }
+    
+    .about {
+        text-indent: 30px;
+        font-size: 20px;
+        font-family: cursive;
+        display: inline-block;
+        padding-bottom: 40px;
+        padding-left: 30px;
+    }
+    
+    .about-name {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .inf {
+        float: left;
+        padding-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .social-media {
+        padding-left: 20px;
+        margin: 1em;
+    }
+    
+    .btn {
+        margin-top: 14px;
+        color: rgb(185, 120, 100);
+        padding: 15px 17px;
+        border-radius: 10px;
+        box-shadow: rgb(127, 120, 177);
+    }
+    
+    .btn:hover {
+        cursor: pointer;
+        background-color: rgb(132, 179, 218);
+        color: #fff;
+    }
+    
+    .social-icons {
+        padding-left: 80px;
+    }
+    
+    .btn2 {
+        margin-top: auto;
+        font-size: 18px;
+        color: rgb(185, 120, 100);
+        padding: 15px 20px;
+        border-radius: 100%;
+        box-shadow: rgb(127, 120, 177);
+    }
+    
+    .btn2:hover {
+        cursor: pointer;
+        background-color: rgb(132, 179, 218);
+        color: #fff;
+    }
+    
+    .info {
+        padding-left: 100px;
+    }
+    
+    .projects {
+        padding-left: 30px;
+        padding: 20px;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .pj {
+        list-style-type: square;
+        padding-left: 30px;
+    }
+    
+    .bullet {
+        list-style-type: square;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    
+    @media (max-width: 600px) {
+        .inf {
+            float: bottom;
+            padding-top: 0px;
+        }
+    }
+    
+    .footer {
+        padding: 20px;
+        text-align: center;
+        font-size: 15px;
+        font-family: monospace;
+        opacity: 0.7;
+    }
+</style>
+
+
+<body>
+
+    <header>
+        <div class="main">
+            <h1> Nancy <strong style=" color: rgb(15, 14, 15);">Tacuri </strong></h1>
+            <ul class="head">
+                <li class="active"> <a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+    <div class="info">
+
+        <div class="picture">
+            <img class="pic" src="pic.jpg" alt="pic">
+        </div>
+        <div class=" inf">
+
+
+            <div class="about-name ">
+                <h1 style="font-size: 35px;"><span class="first-name">Nancy </span> <span class="last-name">Tacuri</span></h1>
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif; padding-bottom: 10px; font-size: 18px;"> I'm a Computer Science student in <span class="p-locality" style="font-family: Georgia, 'Times New Roman', Times, serif;">Chicago, IL</span>.</p>
+            </div>
+
+
+
+            <div class="social-media">
+
+                <a href="mailto:ndtacuri@gmail.com" target="_blank" class="u-email" rel="me noreferrer"><button aria-label="Email"
+                        class="btn" type="button">Email <i class="fa fa-envelope"aria-hidden="true"></i></button></a>
+
+                <a href="https://github.com/ntm98" target="_blank" class="u-url" rel="me noreferrer"><button aria-label="Github"
+                        class="btn " type="button">Github <i class="fa fa-github" aria-hidden="true"></i></button></a>
+
+                <a href="https://www.linkedin.com/in/nancy-tacuri-56593917b/" target="_blank" class="u-url" rel="me noreferrer"><button aria-label="Linkedin"
+                            class="btn " type="button">LinkedIn <i class="fa fa-linkedin" aria-hidden="true"></i></button></a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="https://www.instagram.com/nancy.dtm/" target="_blank" class="u-url" rel="me noreferrer"><button aria-label="Instagram" class="btn2" type="button">
+                     <i class="fa fa-instagram"></i></button></a>
+                <a href="https://www.facebook.com/nancy.lola2/" target="_blank" class="u-url" rel="me noreferrer"><button aria-label="Facebook" class="btn2" type="button"> 
+                    <i class="fa fa-facebook"></i> </button></a>
+                <a href="https://twitter.com/LoLa646" target="_blank" class="u-url" rel="me noreferrer"><button aria-label="Instagram" class="btn2" type="button">
+                     <i class="fa fa-twitter"></i></button></a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about" id="about">
+        <h3 style="padding-top: 50px; padding-bottom: 20px; font-size: 30px; font-family:Georgia, 'Times New Roman', Times, serif ">About</h3>
+        <p style=" text-align:justify; font-family:Georgia, 'Times New Roman', Times, serif;"> I'm currently studing Computer Science at the University of Illinois at Chicago. I just discovered I like to create web sites.
+            <br>
+        </p>
+        <p style="text-indent: 30px; font-family:Georgia, 'Times New Roman', Times, serif;">
+            When I'm not coding, I enjoy running 🏃, watching animes and playing ukulele 🎸
+            <br/>
+            <br/>
+            <a href="file:///C:/Users/nalol/Desktop/HTMLFolder/personal%20blog/website/Resume-NancyTacuri.pdf" style="padding-left: 30px; text-indent: 20px; color: #333333;"> Resume
+  </a>
+        </p>
+
+    </div>
+
+    <div class="projects" id="projects">
+        <h4 style="padding: 20px; font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif;"> Projects</h4>
+        <ul class="pj">
+
+            <li class="bullet">
+                <a href="https://www.shecodes.io/workshops/shecodes-online-workshop-18-0/projects/35472?fbclid=IwAR2zqXYkGOzdGYAs_1YrxBreJcezirAxOAuSg7WQcKtMXtU6TdqwkdaXYuM ">Webpage
+</a> </li>
+            <li class="bullet">
+                <a href="https://colab.research.google.com/drive/15U1SIq-Uoxxp67r8_85MwaGy-hpFI2tB?authuser=2#scrollTo=5K93ABEy9Zlo"> Word Count in Spark/Python. </a>
+            </li>
+            <li class="bullet">
+                Rock, paper, scissor in java
+            </li>
+            <li class="bullet">
+                Web-based COVID 19 App in C# using ASP.NET and ADO.NET
+            </li>
+            <br>
+            <br>
+        </ul>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <hr/>
+    <p class="footer"> &copy; Nancy Tacuri 2020 </p>
+</body>
+
+</html>
